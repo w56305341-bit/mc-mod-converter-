@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FileProvider paths for MC Mod Converter.
+  Allows sharing generated .mcaddon files via Android Intents
+  without needing MANAGE_ALL_FILES (Android 11+).
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- App internal cache -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- App files dir -->
+    <files-path
+        name="files"
+        path="." />
+
+    <!-- External Downloads folder (Android 9 and below) -->
+    <external-path
+        name="external_downloads"
+        path="Download/MCModConverter/" />
+
+    <!-- External cache -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+</paths>
